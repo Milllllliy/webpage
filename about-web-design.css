@@ -1,0 +1,86 @@
+body{
+	font-family: 'Shadows Into Light Two', cursive;
+    color:#0E6655;
+    background-color: #E3FFED
+}
+
+header{
+	font-size: 60px;
+	text-align: center;
+	margin: 10px;
+}
+
+li {
+    width: 150px;
+    float: left;
+    font-size: 16px;
+}
+
+li a {
+    display: block;
+    padding: 12px;
+    background-color: #E3FFED;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: #BCE8CD;
+}
+
+ul {
+    list-style-type: none;    
+    padding: 0;
+    overflow: hidden;
+    border: 8px solid white;
+    background-color: #f3f3f3;
+    width: 600px;
+    margin: auto;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #BCE8CD;
+}
+
+section{
+    width: 650px;
+    margin: auto;
+    padding: 0px;
+    border:10px solid white;
+    background-color: #AAFFC4
+}
+
+h1{
+    background-color: #25A261;
+    color: white;
+}
+
+.clear{
+	clear: both;
+} 
